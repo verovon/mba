@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>INSPIRE Knowledge Base</title>
+	<link rel="stylesheet" href="css/mba.css">
+	<script src = "js/js.js"></script>
+</head>
+<body>
+	<header>
+		<h1>INSPIRE Knowledge Base</h1>
+		<nav>
+			<a href="home.html">Home</a>
+			<a href="map-viewer.html">Map viewer</a>
+			<a href="documentation.html">Documentation</a>
+			<a href="tools.html" target="_blank">Tools</a>
+			<a href="feedback.html" class = "active">Feedback</a>
+		</nav>
+	</header>
+
+	<main>
+		<aside class = "left">
+			<img src="img/Home-addresses.png" alt="Addresses" width="200" height="200">
+
+			<img src="img/topographic.jpg" alt="Addresses" width="200" height="200">
+
+			<img src="img/species.png" alt="Addresses" width="200" height="200">
+
+		</aside>
+
+
+		<section class = "right">
+
+			<body onload="loadComments()">
+	 
+			<h2>Comments on the conference</h2>
+
+			<button onclick="myFunction()">Add your comments</button>
+
+			<p id="comments"></p>
+
+			</body>
+
+		</section>
+	</main>
+</body>
+</html>
